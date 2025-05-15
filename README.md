@@ -146,6 +146,7 @@ and open the template in the editor.
 </html>
 ***
 # index.jsp
+***
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
@@ -201,7 +202,7 @@ and open the template in the editor.
 
     </body>
 </html>
-
+***
 ## Result
 
 The SOAP-based web services were successfully created and executed, demonstrating both server-side and client-side implementations.
