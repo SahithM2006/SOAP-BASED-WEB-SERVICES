@@ -72,7 +72,7 @@ To create SOAP-based web services using both server-side and client-side impleme
 
 ## PROGRAM:
 # SERVICE
-***
+```
 Cal-service (JAVA file)
 
 * To change this license header, choose License Headers in Project Properties.
@@ -109,10 +109,10 @@ public class Calservice {
         return (num1 + num2);
     }
 }
-***
+```
 # CLIENT
 # index.html
-***
+```
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -144,9 +144,9 @@ and open the template in the editor.
         </form>
     </body>
 </html>
-***
+```
 # index.jsp
-***
+```
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
@@ -202,7 +202,20 @@ and open the template in the editor.
 
     </body>
 </html>
-***
+```
+## OUTPUT 
+
+## Server-Side Implementation
+
+## Server-Side Terminal
+![EXPERIMENT 3](https://github.com/user-attachments/assets/3d2fd65e-f466-42ee-bf3d-01f05eaa019e)
+## Server-side output pages
+## Input page
+![EXPERIMENT 2(1)](https://github.com/user-attachments/assets/543bff6a-dfbe-4792-b680-b94cce71c6df)
+
+## Addition output
+![EXPERIMENT 2(2)](https://github.com/user-attachments/assets/aa6c6ab6-b136-494b-9289-22818e444fa2)
+
 ## Result
 
 The SOAP-based web services were successfully created and executed, demonstrating both server-side and client-side implementations.
